@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src= "assets/js/index.js"></script>
+</head>
+<body>
+	<div class="header">Dine Exeter
+		<div class="image"></div>
+	</div>
+	<div class="displayMenuHeader">Breakfast
+	</div>
+	<div class="displayMenu">
+		<ul class = "list">
+			<li>Food 1</li>
+			<li>Food 2</li>
+			<li>Food 3</li>
+			<li>Food 4</li>
+	</div>
+	<div class="buttonBar">
+			<button class="elm_button">Elm</button>
+			<button class="weth_button">Wetherell</button>
+	</div>
+</body>
+</html>
