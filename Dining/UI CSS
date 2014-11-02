@@ -2,6 +2,14 @@
 	box-sizing: border-box;
 }
 
+.body{
+
+	margin: 0;
+	padding: 0;
+	border:none;
+	overflow: hidden;
+}
+
 .header {
 
 	height: 110px;
@@ -30,11 +38,12 @@
 	font-size: 40pt;
 	font-family: 'Roboto', sans-serif;
 	color: #990000;
+	padding-left: 8px;
 }
 
 .displayMenu {
 
-	height: 600px;
+	height: 550px;
 	width: 100%;
 	background-color: white;
 	font-size: 20pt;
@@ -42,9 +51,39 @@
 	color: #990000;
 }
 
-.list li {
+.breakfast {
+	border-style: solid;
+	border-color: #990000;
+	list-style-type: none;
+
+}
+
+.lunch {
+	border-style: solid;
+	border-color: #990000;
+	list-style-type: none;
+}
+
+.dinner{
+	border-style: solid;
+	border-color: #990000;
+	list-style-type: none;
+}
+
+.brunch {
+	border-style: solid;
+	border-color: #990000;
+	list-style-type: none;
+}
+
+.list {
 
 	list-style-type: none;
+
+}
+
+.list li:hover {
+
 }
 
 .buttonBar {
@@ -63,7 +102,7 @@
 	font-family: 'Roboto', sans-serif;
 	color: white;
 	display: inline-block;
-	width:49.5%;
+	width:50%;
 	height: 100%;
 	text-align: center;
 	background-color: #990000;
@@ -75,6 +114,7 @@
 	background-color: #990000;
 	border-style: solid;
 	border-color: #990000;
+	float: left;
 }
 
 .weth_button {
@@ -83,4 +123,16 @@
 	background-color: #990000;
 	border-style: solid;
 	border-color: #990000;
+	float: right;
+}
+.elm_button:hover {
+
+	background-color: red;
+	border-color: red;
+}
+
+.weth_button:hover {
+
+	background-color: red;
+	border-color: red;
 }
